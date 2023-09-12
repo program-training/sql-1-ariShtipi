@@ -29,7 +29,8 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 
 12.SELECT COUNT(order_id)  FROM Orders  WHERE EXTRACT(YEAR FROM order_date) = 1997
 
-13.
+13.SELECT *  FROM customers WHERE contact_title IN ('Owner' ,'CEO' )
+
 14.
 15.
 16.
