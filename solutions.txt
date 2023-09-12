@@ -46,5 +46,6 @@ SELECT * FROM Products WHERE unit_price = (SELECT MAX(unit_price) FROM Products)
 
 20.SELECT product_name ,units_in_stock FROM Products;
 
-21.
+21.SELECT product_id, product_name, unit_price FROM Products WHERE unit_price > (SELECT AVG(unit_price) FROM Products);
+
 22.
