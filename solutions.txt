@@ -40,7 +40,8 @@ SELECT * FROM Products WHERE unit_price = (SELECT MAX(unit_price) FROM Products)
 
 17.SELECT *  FROM products WHERE units_in_stock < 10 AND discontinued <> 1
 
-18.
+18.SELECT MAX(unit_price) AS HighestPrice, MIN(unit_price) AS LowestPrice FROM Products;
+
 19.
 20.
 21.
