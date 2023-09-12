@@ -36,7 +36,8 @@ SELECT * FROM Products WHERE unit_price = (SELECT MAX(unit_price) FROM Products)
 
 15.SELECT AVG(EXTRACT(YEAR FROM AGE(CURRENT_DATE, birth_date))) AS average_age FROM Employees;
 
-16.
+16.SELECT *  FROM customers WHERE phone LIKE '%123%'
+
 17.
 18.
 19.
