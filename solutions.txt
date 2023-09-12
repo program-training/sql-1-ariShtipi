@@ -24,7 +24,8 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 9.SELECT SUM(unit_price * quantity) FROM order_details  WHERE product_id = 7
 
 
-10.
+10.SELECT COUNT(category_id)  FROM Products
+
 11.
 12.
 13.
