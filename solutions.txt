@@ -31,7 +31,9 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 
 13.SELECT *  FROM customers WHERE contact_title IN ('Owner' ,'CEO' )
 
-14.
+14.SELECT MAX(unit_price)  FROM Products  
+SELECT * FROM Products WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
+
 15.
 16.
 17.
