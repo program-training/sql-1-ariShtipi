@@ -21,7 +21,8 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 
 8.SELECT AVG (unit_price) FROM products
 
-9.SELECT SUM(unit_price) FROM order_details  WHERE product_id = 7
+9.SELECT SUM(unit_price * quantity) FROM order_details  WHERE product_id = 7
+
 
 10.
 11.
