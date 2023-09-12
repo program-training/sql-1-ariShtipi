@@ -34,7 +34,8 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 14.SELECT MAX(unit_price)  FROM Products  
 SELECT * FROM Products WHERE unit_price = (SELECT MAX(unit_price) FROM Products);
 
-15.
+15.SELECT AVG(EXTRACT(YEAR FROM AGE(CURRENT_DATE, birth_date))) AS average_age FROM Employees;
+
 16.
 17.
 18.
