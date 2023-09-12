@@ -16,7 +16,9 @@ SELECT  Product_id,Product_name,Category_id , unit_price FROM productsORDER  BY 
 
 6.SELECT * FROM Employees WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 
-7.
+7.SELECT * FROM products WHERE units_in_stock <> 0;
+SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
+
 8.
 9.
 10.
