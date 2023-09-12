@@ -19,7 +19,8 @@ SELECT  Product_id,Product_name,Category_id , unit_price FROM productsORDER  BY 
 7.SELECT * FROM products WHERE units_in_stock <> 0;
 SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 
-8.
+8.SELECT AVG (unit_price) FROM products
+
 9.
 10.
 11.
