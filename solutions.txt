@@ -2,7 +2,9 @@
 
 1.SELECT Product_id,Product_name,Category_id FROM Products 
 
-2.
+2.SELECT *  FROM Customers WHERE country ='Germany'
+SELECT phone  FROM Customers WHERE country ='Germany'
+
 3.
 4.
 5.
