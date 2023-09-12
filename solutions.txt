@@ -12,7 +12,7 @@ SELECT employee_id  FROM Orders WHERE customer_id = 'ALFKI'
 SELECT COUNT(order_id )AS TotalOrders FROM Orders   GROUP BY customer_id
 
 5.SELECT * FROM products ORDER  BY unit_price DESC LIMIT 5
-SELECT  Product_id,Product_name,Category_id , unit_price FROM productsORDER  BY unit_price DESC LIMIT 5
+SELECT  Product_id,Product_name,Category_id , unit_price FROM products ORDER  BY unit_price DESC LIMIT 5
 
 6.SELECT * FROM Employees WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 
@@ -21,7 +21,8 @@ SELECT Product_name,Category_id FROM products WHERE units_in_stock <> 0;
 
 8.SELECT AVG (unit_price) FROM products
 
-9.
+9.SELECT SUM(unit_price) FROM order_details  WHERE product_id = 7
+
 10.
 11.
 12.
