@@ -1,6 +1,6 @@
 את הפתרונות שלכם תכתבו כאן, אחרי כל שאלה, תעשו קומיט.
 
-1.SELECT Product_id,Product_name,Category_id FROM Products 
+1.SELECT Product_id,Product_name,Category_id FROM Products WHERE unit_price > 50  
 
 2.SELECT *  FROM Customers WHERE country ='Germany'
 SELECT phone  FROM Customers WHERE country ='Germany'
