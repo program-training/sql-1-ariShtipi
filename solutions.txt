@@ -1,6 +1,7 @@
 את הפתרונות שלכם תכתבו כאן, אחרי כל שאלה, תעשו קומיט.
 
-1.
+1.SELECT Product_id,Product_name,Category_id FROM Products 
+
 2.
 3.
 4.
